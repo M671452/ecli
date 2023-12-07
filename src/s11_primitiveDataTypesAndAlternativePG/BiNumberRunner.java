@@ -1,0 +1,19 @@
+package s11_primitiveDataTypesAndAlternativePG;
+
+public class BiNumberRunner {
+
+	public static void main(String[] args) {
+		
+		BiNumber numbers = new BiNumber(2, 3);
+
+		System.out.println(numbers.add());// 2+3
+		System.out.println(numbers.multiply());// 2*3
+
+		numbers.doubleValue();// Double both numbers
+
+		System.out.println(numbers.getNumber1());// value 2 doubled to 4
+		System.out.println(numbers.getNumber2());// value 3 doubled to 6
+
+	}
+
+}
